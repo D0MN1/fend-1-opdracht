@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kies je Quiz Thema</title>
+    <link rel="stylesheet" href="/Pagina's/thema%20style.css">
+</head>
+<body>
+
+<div class="container">
+    <p class="team-name">[Teamnaam]</p>
+    <h2>Hallo, welke quiz wil je spelen?</h2>
+
+    <div class="themes">
+        <button class="theme-button">Thema 1</button>
+        <button class="theme-button">Thema 2</button>
+        <button class="theme-button">Thema 3</button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const playerName = localStorage.getItem("playerName");
+        if (playerName) {
+            document.querySelector(".team-name").textContent = playerName;
+        }
+    });
+</script>
+</body>
+</html>
