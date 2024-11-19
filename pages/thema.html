@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KennisKannon | Kies je Thema</title>
     <link rel="stylesheet" href="../css/thema.css">
-    <script src="../js/main.js" defer></script>
 </head>
 <body>
 
@@ -14,11 +13,22 @@
     <h2>Hallo , welke quiz wil je spelen?</h2>
 
     <div class="themes">
-        <a href="quiz.html?theme=thema1"><button class="theme-button">Thema 1: Github</button></a>
-        <a href="quiz.html?theme=thema2"><button class="theme-button">Thema 2: Front-end</button></a>
-        <a href="quiz.html?theme=thema3"><button class="theme-button">Thema 3: Back-end</button></a>
+        <button class="theme-button">
+            <img class="theme-button-img" src="../img/GitQuiz.jpg" alt="">
+            <h3 class="theme-button-text">Git Quiz</h3>
+        </button>
+        <button class="theme-button">Thema 2</button>
+        <button class="theme-button">Thema 3</button>
     </div>
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const playerName = localStorage.getItem("playerName");
+        if (playerName) {
+            document.querySelector(".team-name").textContent = playerName;
+        }
+    });
+</script>
 </body>
 </html>

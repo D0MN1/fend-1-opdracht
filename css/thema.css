@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -14,16 +14,16 @@ body {
     max-width: 600px;
     width: 100%;
     text-align: center;
-    position: absolute;
+    position: relative;
 }
 
 .team-name {
     font-style: italic;
     color: #665;
     position: absolute;
-    bottom: 380px;
+    top: 20px;
+    left: 20px;
     font-size: 16px;
-    left: -50%;
 }
 
 h2 {
@@ -34,26 +34,55 @@ h2 {
 
 .themes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 30px;
-    gap: 10px;
 }
 
 .theme-button {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+
+    width: 180px;
+    height: 300px;
+
+    border: none;
+
     background-color: #4A6CF7;
     color: #fff;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    display: flex;
+
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: background-color 0.3s;
+
+    overflow: hidden;
+}
+
+.theme-button-img {
+    display: block;
+
+    height: auto;
+    width: 500%;
+    top: 0;
+
+    object-fit: contain;
+    transition: 1s;
+}
+
+.theme-button-img:hover {
+    height: auto;
+    width: 300%;
+
+    transition: 0.5s;
+}
+
+.theme-button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .theme-button:hover {
     background-color: #3b54c4;
 }
+
