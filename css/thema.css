@@ -14,16 +14,16 @@ body {
     max-width: 600px;
     width: 100%;
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 
 .team-name {
     font-style: italic;
     color: #665;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    bottom: 350px;
     font-size: 16px;
+    left: -50%;
 }
 
 h2 {
@@ -34,13 +34,14 @@ h2 {
 
 .themes {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 30px;
+    gap: 10px;
 }
 
 .theme-button {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     background-color: #4A6CF7;
     color: #fff;
