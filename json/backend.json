@@ -1,0 +1,59 @@
+{
+  "quiz": [
+    {
+      "question": "Wat is de hoofdverantwoordelijkheid van een back-end ontwikkelaar?",
+      "options": {
+        "A": "Het ontwerpen van de gebruikersinterface",
+        "B": "Het beheren van server-side logica en databases",
+        "C": "Het maken van grafische ontwerpen",
+        "D": "Het schrijven van client-side scripts"
+      },
+      "correct_answer": "B",
+      "points": 10
+    },
+    {
+      "question": "Welke taal wordt vaak gebruikt voor back-end ontwikkeling?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "Python",
+        "D": "JavaScript"
+      },
+      "correct_answer": "C",
+      "points": 10
+    },
+    {
+      "question": "Wat is een API in back-end ontwikkeling?",
+      "options": {
+        "A": "Application Programming Interface",
+        "B": "Automated Process Integration",
+        "C": "Advanced Programming Interaction",
+        "D": "Active Processing Interface"
+      },
+      "correct_answer": "A",
+      "points": 15
+    },
+    {
+      "question": "Welke database is een voorbeeld van een relationele database?",
+      "options": {
+        "A": "MongoDB",
+        "B": "MySQL",
+        "C": "Redis",
+        "D": "Elasticsearch"
+      },
+      "correct_answer": "B",
+      "points": 15
+    },
+    {
+      "question": "Wat is het doel van middleware in back-end ontwikkeling?",
+      "options": {
+        "A": "Om front-end visuals te verbeteren",
+        "B": "Om communicatie tussen verschillende applicaties of diensten af te handelen",
+        "C": "Om client-side fouten te debuggen",
+        "D": "Om databasequery's te optimaliseren"
+      },
+      "correct_answer": "B",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "quiz": [
+    {
+      "question": "Welke taal wordt voornamelijk gebruikt voor het structureren van webinhoud?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "JavaScript",
+        "D": "Python"
+      },
+      "correct_answer": "A",
+      "points": 10
+    },
+    {
+      "question": "Wat is het doel van CSS in front-end ontwikkeling?",
+      "options": {
+        "A": "Om inhoud te structureren",
+        "B": "Om interactiviteit toe te voegen",
+        "C": "Om inhoud te stijlen en te lay-outen",
+        "D": "Om server-side logica te beheren"
+      },
+      "correct_answer": "C",
+      "points": 10
+    },
+    {
+      "question": "Welke framework wordt vaak gebruikt voor het bouwen van responsieve websites?",
+      "options": {
+        "A": "React",
+        "B": "Bootstrap",
+        "C": "Django",
+        "D": "Angular"
+      },
+      "correct_answer": "B",
+      "points": 15
+    },
+    {
+      "question": "Wat is de DOM in webontwikkeling?",
+      "options": {
+        "A": "Document Object Model",
+        "B": "Dynamic Object Map",
+        "C": "Data Oriented Management",
+        "D": "Development Object Mode"
+      },
+      "correct_answer": "A",
+      "points": 15
+    },
+    {
+      "question": "Welke tool wordt vaak gebruikt voor het debuggen van front-end code?",
+      "options": {
+        "A": "GitHub",
+        "B": "DevTools",
+        "C": "MySQL",
+        "D": "Docker"
+      },
+      "correct_answer": "B",
+      "points": 10
+    }
+  ]
+}

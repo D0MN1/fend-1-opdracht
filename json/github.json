@@ -1,0 +1,59 @@
+{
+  "quiz": [
+    {
+      "question": "Waar wordt GitHub voornamelijk voor gebruikt?",
+      "options": {
+        "A": "Beheren van softwareprojecten en versiebeheer",
+        "B": "Hosten van websites",
+        "C": "Maken van grafische ontwerpen",
+        "D": "Versturen van e-mails"
+      },
+      "correct_answer": "A",
+      "points": 10
+    },
+    {
+      "question": "Welke versiebeheersysteem gebruikt GitHub?",
+      "options": {
+        "A": "Git",
+        "B": "SVN",
+        "C": "Mercurial",
+        "D": "Perforce"
+      },
+      "correct_answer": "A",
+      "points": 10
+    },
+    {
+      "question": "Wat is een GitHub-repository?",
+      "options": {
+        "A": "Een verzameling bestanden en hun versiegeschiedenis",
+        "B": "Een tool om code te debuggen",
+        "C": "Een ingebouwde teksteditor",
+        "D": "Een code-compiler"
+      },
+      "correct_answer": "A",
+      "points": 10
+    },
+    {
+      "question": "Welke opdracht wordt gebruikt om een GitHub-repository te klonen?",
+      "options": {
+        "A": "git clone",
+        "B": "git pull",
+        "C": "git push",
+        "D": "git init"
+      },
+      "correct_answer": "A",
+      "points": 15
+    },
+    {
+      "question": "Wat is het doel van een README-bestand in een GitHub-repository?",
+      "options": {
+        "A": "Het geven van een overzicht en instructies voor het project",
+        "B": "Het opsommen van alle bugs in de code",
+        "C": "Het compileren van het project",
+        "D": "Het bijhouden van gebruikersactiviteit"
+      },
+      "correct_answer": "A",
+      "points": 15
+    }
+  ]
+}

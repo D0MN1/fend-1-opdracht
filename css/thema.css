@@ -58,10 +58,10 @@ h2 {
 }
 
 .theme-button-img {
-    display: block;
 
     height: auto;
     width: 500%;
+
     top: 0;
 
     object-fit: contain;
@@ -70,14 +70,18 @@ h2 {
 
 .theme-button-img:hover {
     height: auto;
-    width: 300%;
+    width: 350%;
 
     transition: 0.5s;
 }
 
 .theme-button-text {
-    position: absolute;
-    top: 50%;
+    position: relative;
+
+    width: 180px;
+    height: 300px;
+
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
