@@ -1,6 +1,10 @@
 {
   "quiz": [
     {
+      "title": "Front-End"
+    },
+
+    {
       "question": "Welke taal wordt voornamelijk gebruikt voor het structureren van webinhoud?",
       "options": {
         "A": "HTML",

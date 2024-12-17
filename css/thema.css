@@ -55,24 +55,25 @@ h2 {
     align-items: center;
 
     overflow: hidden;
+
+    transition: 0.2s;
+}
+
+.theme-button:hover {
+    width: 220px;
+
+    transition: 0.4s;
 }
 
 .theme-button-img {
 
     height: auto;
-    width: 500%;
+    width: 400%;
 
     top: 0;
 
     object-fit: contain;
     transition: 1s;
-}
-
-.theme-button-img:hover {
-    height: auto;
-    width: 350%;
-
-    transition: 0.5s;
 }
 
 .theme-button-text {

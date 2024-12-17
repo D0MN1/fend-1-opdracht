@@ -1,7 +1,11 @@
 {
   "quiz": [
     {
-      "question": "Wat is de hoofdverantwoordelijkheid van een back-end ontwikkelaar?",
+      "title": "Back-End"
+    },
+
+    {
+    "question": "Wat is de hoofdverantwoordelijkheid van een back-end ontwikkelaar?",
       "options": {
         "A": "Het ontwerpen van de gebruikersinterface",
         "B": "Het beheren van server-side logica en databases",
