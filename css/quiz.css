@@ -28,7 +28,17 @@ h1 {
     height: 48px;
 
     color: #333;
-    margin-bottom: 128px;
+    margin-bottom: 64px;
+}
+
+img {
+    width: 97%;
+    height: 200px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+    margin-bottom: 16px;
 }
 
 .question {
@@ -38,7 +48,7 @@ h1 {
 
     height: 48px;
 
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .buttons {
@@ -58,7 +68,7 @@ button {
     font-size: 14px;
 
     width: 280px;
-    height: 48px;
+    height: 64px;
 
     border: solid 1px rgb(220, 220, 220);
     border-radius: 6px;
