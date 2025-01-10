@@ -21,8 +21,8 @@ body {
     font-style: italic;
     color: #665;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: -100px;
+    left: -300px;
     font-size: 16px;
 }
 
@@ -38,56 +38,50 @@ h2 {
     margin-top: 30px;
 }
 
-.theme-button {
+.theme {
     display: flex;
-    cursor: pointer;
-
-    width: 180px;
-    height: 300px;
-
-    border: none;
-
-    background-color: #4A6CF7;
-    color: #fff;
-
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-    overflow: hidden;
-
-    transition: 0.2s;
+    text-align: center;
 }
 
-.theme-button:hover {
-    width: 220px;
+.theme-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
 
-    transition: 0.4s;
+.theme-button {
+    cursor: pointer;
+    width: 180px;
+    height: 300px;
+    border: none;
+    background-color: #4A6CF7;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+    transition: 0.3s;
 }
 
 .theme-button-img {
-
-    height: auto;
-    width: 400%;
-
+    height: 240%;
+    width: auto;
     top: 0;
-
     object-fit: contain;
     transition: 1s;
 }
 
-.theme-button-text {
-    position: relative;
-
-    width: 180px;
-    height: 300px;
-
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.theme-button-img:hover {
+    height: 102%;
+    transition: 0.5s;
 }
 
 .theme-button:hover {
     background-color: #3b54c4;
+    width: 220px;
+    transition: 0.5s;
 }
-

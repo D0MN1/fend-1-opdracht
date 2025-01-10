@@ -11,15 +11,26 @@
 
 <div class="container">
     <p class="team-name">[Teamnaam]</p>
-    <h2>Hallo , welke quiz wil je spelen?</h2>
-
+    <h2 class="introduction">Hallo {teamnaam}, welke quiz wil je spelen?</h2>
     <div class="themes">
-        <button id="github" class="theme-button">
-            <h3 class="theme-button-text">GitHub</h3>
-            <img class="theme-button-img" src="../img/GitQuiz.jpg" alt="">
-        </button>
-        <button id="frontend" class="theme-button">Front End</button>
-        <button id="backend" class="theme-button">Back End</button>
+        <div class="theme">
+            <h3 class="theme-title">Git Quiz</h3>
+            <button id="github" class="theme-button">
+                <img class="theme-button-img" src="../img/git.jpg" alt="Git Quiz">
+            </button>
+        </div>
+        <div class="theme">
+            <h3 class="theme-title">Front-end</h3>
+            <button id="frontend" class="theme-button">
+                <img class="theme-button-img" src="../img/frontend.jpg" alt="Front-end Quiz">
+            </button>
+        </div>
+        <div class="theme">
+            <h3 class="theme-title">Back-end</h3>
+            <button id="backend" class="theme-button">
+                <img class="theme-button-img" src="../img/backend.png" alt="Back-end Quiz">
+            </button>
+        </div>
     </div>
 </div>
 
@@ -28,6 +39,7 @@
         const playerName = localStorage.getItem("playerName");
         if (playerName) {
             document.querySelector(".team-name").textContent = playerName;
+            document.querySelector(".introduction").textContent = "Hallo " + playerName + ". welke quiz wil je spelen?";
         }
     });
 </script>
